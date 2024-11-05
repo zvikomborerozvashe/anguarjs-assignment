@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "Will",
+      "lastName": "Smith",
+      "email": "jane@example.com",
+      "mobile": "9876543210",
+      "salary": "200000"
+    },
+    {
+      "id": 3,
+      "firstName": "Phobe",
+      "lastName": "Muti",
+      "email": "phoebe@gmail.com",
+      "mobile": "772334904",
+      "salary": "90000"
+    },
+    {
+      "id": 5,
+      "firstName": "clever",
+      "lastName": "nyap",
+      "email": "cv@gmail.com",
+      "mobile": "1234567",
+      "salary": "90000"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Phoebe",
+      "email": "phoebe@gmail.com",
+      "password": "19872hg",
+      "mobile": "0987630882",
+      "id": 1
+    },
+    {
+      "fullname": "siddhi",
+      "email": "abcd@gmail.com",
+      "password": "12345",
+      "mobile": "123456",
+      "id": 2
+    },
+    {
+      "fullname": "Ethel",
+      "email": "em90@gmail.com",
+      "password": "0000",
+      "mobile": "Gibson",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

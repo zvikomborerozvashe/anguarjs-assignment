@@ -1,0 +1,21 @@
+<!-- certificate-generator.component.html -->
+<div>
+    <h2>Certificate Generator</h2>
+    <form (ngSubmit)="generateCertificate()">
+      <label for="employeeId">Employee ID:</label>
+      <input type="number" id="employeeId" [(ngModel)]="employeeId" required>
+      <label for="certificateTitle">Certificate Title:</label>
+      <input type="text" id="certificateTitle" [(ngModel)]="certificateTitle" required>
+      <button type="submit">Generate Certificate</button>
+    </form>
+  
+    <h2>Certificates</h2>
+    <ul>
+      <li *ngFor="let certificate of certificates">
+        {{ certificate.employeeName }} - {{ certificate.certificateTitle }}
+        <button (click)="downloadCertificate(certificate.id)">Download</button>
+        <button (click)="deleteCertificate(certificate.id)">Delete</button>
+      </li>
+    </ul>
+  </div>
+  

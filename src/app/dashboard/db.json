@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Phoebe",
+      "lastName": "Mutize",
+      "email": "phoebe@gmail.com",
+      "mobile": "772334904",
+      "salary": "90000"
+    },
+    {
+      "id": 2,
+      "firstName": "manuel",
+      "lastName": "nyapfumbie",
+      "email": "manu@yahoo.com",
+      "mobile": "1234576796",
+      "salary": "20000"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "denze",
+      "email": "jfgdb@gmail.com",
+      "password": "1234",
+      "mobile": "12345666",
+      "id": 1
+    }
+  ],
+  "login": []
+}
